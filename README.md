@@ -69,3 +69,6 @@ To complete this project, I utilized the following resources:
 
       more_allocation(arena_t *my_arena) 
 - This is a function which takes in the amount of extra memory that needs to be allocated in addition to the memory already allocated.
+
+        prompt_for_reset(arena_t *my_arena) 
+- This function asks the user whether to reset the arena for new allocation or to free the memory and exit the program
