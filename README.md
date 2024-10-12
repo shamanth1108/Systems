@@ -30,7 +30,7 @@ To complete this project, I utilized the following resources:
 - This defines a structure with three structure members.
 - arena_t is a pointer pointing to the beginning of the memory pool, 'size' which defines the fixed size, and offset which gives the nearest free memory in the total allocated memory.
 
-### 3. Then comes the function declarations.
+### 3. The function declarations.
 
 ### 4. Thread Safety
       pthread_mutex_t lock; // Mutex for thread safety
