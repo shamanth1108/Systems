@@ -14,11 +14,11 @@ To complete this project, I utilized the following resources:
 
 ## **Explanation** :
 ### 1. Firstly I have initialised all the header files required for the task <br>
-      #include <pthread.h>    // For thread safety <br>
-      #include <stdatomic.h>  // For atomic operations <br>
-      #include <stdlib.h>   // For malloc, free <br>
-      #include <stddef.h>   // For size_t <br>
-      #include <stdio.h>    // For debugging <br>
+      #include <pthread.h>    // For thread safety
+      #include <stdatomic.h>  // For atomic operations
+      #include <stdlib.h>   // For malloc, free
+      #include <stddef.h>   // For size_t
+      #include <stdio.h>    // For debugging
 
 ### 2. Structure Definition
       typedef struct {
