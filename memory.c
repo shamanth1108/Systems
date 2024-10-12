@@ -1,8 +1,8 @@
-#include <pthread.h>    // For thread safety (optional)
-#include <stdatomic.h>  // For atomic operations (optional, C11 or later)
+#include <pthread.h>    // For thread safety
+#include <stdatomic.h>  // For atomic operations
 #include <stdlib.h>   // For malloc, free
 #include <stddef.h>   // For size_t
-#include <stdio.h>    // For optional debugging (e.g., printf)
+#include <stdio.h>    // For debugging
 
 typedef struct {
     void *memory;    // Pointer to the beginning of the memory pool
