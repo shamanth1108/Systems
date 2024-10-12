@@ -86,8 +86,6 @@ void* arena_alloc_aligned(arena_t *arena, size_t size, size_t alignment) {
     size_t current_offset = arena->offset;
     size_t aligned_offset = (current_offset + alignment - 1) & ~(alignment - 1); // Align to the nearest multiple
     size_t remaining_space = arena->size - aligned_offset;
-    
-    // printf("Current Offset: %zu, Aligned Offset: %zu, Remaining Space: %zu\n", current_offset, aligned_offset, remaining_space);
 
      // Check if the aligned offset + requested size exceeds the total arena size
     if (remaining_space < size) {
